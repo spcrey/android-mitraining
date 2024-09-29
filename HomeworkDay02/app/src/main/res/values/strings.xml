@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">HomeworkDay02</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="implicit_intent_activity">implicit intent activity</string>
+    <string name="send">send</string>
+    <string name="main_activity">main activity</string>
+    <string name="sub_activity">sub activity</string>
+    <string name="service_activity">service activity</string>
+    <string name="service_bind_activity">service bind activity</string>
+    <string name="start_service">start service</string>
+    <string name="bind">bind</string>
+    <string name="unbind">unbind</string>
+    <string name="get">get</string>
+    <string name="sub_activity_1">sub activity 1</string>
+    <string name="sub_activity_2">sub activity 2</string>
+    <string name="sub_activity_3">sub activity 3</string>
+    <string name="sub_activity_4">sub activity 4</string>
+    <string name="aidl_calculator_activity">aidl calculator activity</string>
+    <string name="calculate">calculate 1+2</string>
+    <string name="network_receiver_activity">network receiver activity</string>
+    <string name="contacts_activity">contacts activity</string>
+    <string name="dynamic_receiver">dynamic receiver</string>
+    <string name="null_string">null</string>
+    <string name="read_contacts">read contacts</string>
+    <string name="next">next</string>
+</resources>

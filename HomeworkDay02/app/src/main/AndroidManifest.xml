@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ContactsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HomeworkDay02">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SubActivity1"
+            android:exported="false"
+            android:launchMode="standard" />
+
+        <activity
+            android:name=".SubActivity2"
+            android:exported="false"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".SubActivity3"
+            android:exported="false"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".SubActivity4"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+
+        <activity
+            android:name=".ImplicitIntentActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ServiceActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".service.FirstService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="TODO" />
+
+        <activity
+            android:name=".ServiceBindActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".service.BindService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="TODO" />
+
+        <activity
+            android:name=".AidlCalculatorActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".service.CalculatorService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="TODO" />
+
+        <receiver
+            android:name=".receiver.StaticBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".DynamicReceiverActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".receiver.DynamicBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

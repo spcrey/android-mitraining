@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat"
+        tools:targetApi="31">
+        <activity
+            android:name=".HomeworkPropertyAnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeworkTweenAnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InterpolatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EvaluatorColorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimatorViewPropertyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimatorValueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimatorPropertyHolderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimatorObjectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimSetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimAlphaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimRotateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimScaleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimTranslateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

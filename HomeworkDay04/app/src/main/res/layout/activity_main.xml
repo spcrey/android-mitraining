@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        style="@style/style_title"
+        android:text="@string/main_activity_title" />
+
+    <Button
+        style="@style/style_main_activity_button"
+        android:id="@+id/btn_to_multi_view_activity"
+        android:text="@string/multi_view_activity_title" />
+
+    <Button
+        style="@style/style_main_activity_button"
+        android:id="@+id/btn_to_recycler_view"
+        android:text="@string/recycler_view_title" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            style="@style/style_main_activity_button"
+            android:id="@+id/btn_to_marquee_activity"
+            android:text="@string/marquee_title" />
+
+        <Button
+            style="@style/style_main_activity_button"
+            android:id="@+id/btn_to_multi_button_activity"
+            android:text="@string/multi_button_title" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            style="@style/style_main_activity_button"
+            android:id="@+id/btn_to_radio_group_activity"
+            android:text="@string/radio_group_title" />
+
+        <Button
+            style="@style/style_main_activity_button"
+            android:id="@+id/btn_to_check_box"
+            android:text="@string/check_box_title" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            style="@style/style_main_activity_button"
+            android:id="@+id/btn_to_toggle_switch"
+            android:text="@string/toggle_switch_title" />
+
+        <Button
+            style="@style/style_main_activity_button"
+            android:id="@+id/btn_to_seekbar_image"
+            android:text="@string/seekbar_image_title" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            style="@style/style_main_activity_button"
+            android:id="@+id/btn_to_text_check"
+            android:text="@string/text_check_title" />
+
+        <Button
+            style="@style/style_main_activity_button"
+            android:id="@+id/btn_to_span_text"
+            android:text="@string/span_text_title" />
+
+    </LinearLayout>
+
+</LinearLayout>

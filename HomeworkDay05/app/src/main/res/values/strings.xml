@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HomeworkDay05</string>
+    <string name="main_activity_title">main activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="frame_layout_left_text">AA</string>
+    <string name="frame_layout_right_text">BB</string>
+    <string name="to_constraint_layout">to constraint layout</string>
+    <string name="homework_title">homework</string>
+</resources>

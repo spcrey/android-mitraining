@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+        android:text="@string/main_activity" />
+
+    <Button
+        android:id="@+id/btn_to_button_implicit_intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/implicit_intent_activity"
+        android:onClick="toImplicitIntentActivity" />
+
+    <Button
+        android:id="@+id/btn_to_subActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sub_activity"
+        android:onClick="toSubActivity" />
+
+    <Button
+        android:id="@+id/btn_to_service_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/service_activity"
+        android:onClick="toServiceActivity" />
+
+    <Button
+        android:id="@+id/btn_to_service_bind_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/service_bind_activity"
+        android:onClick="toServiceBindActivity" />
+
+    <Button
+        android:id="@+id/btn_to_calculator_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aidl_calculator_activity"
+        android:onClick="toCalculatorServiceActivity" />
+
+    <Button
+        android:id="@+id/btn_to_network_receiver_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/network_receiver_activity"
+        android:onClick="toNetworkReceiverActivity"/>
+
+    <Button
+        android:id="@+id/btn_to_contacts_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contacts_activity"
+        android:onClick="toContactsActivity" />
+
+</LinearLayout>

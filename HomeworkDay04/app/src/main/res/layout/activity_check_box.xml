@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_box_title" />
+
+    <CheckBox
+        android:id="@+id/select_apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apple" />
+
+    <CheckBox
+        android:id="@+id/select_banana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/banana" />
+
+    <CheckBox
+        android:id="@+id/select_watermelon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/watermelon" />
+
+</LinearLayout>

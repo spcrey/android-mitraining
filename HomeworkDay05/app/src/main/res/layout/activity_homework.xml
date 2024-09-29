@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <Button
+        android:id="@+id/icon_backup"
+        android:background="@drawable/back"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/text_close"
+        android:layout_width="48dp"
+        android:layout_height="36dp"
+        android:text="关闭"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/text_language"
+        android:layout_width="72dp"
+        android:layout_height="24dp"
+        android:text="简体中文"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon_backup"
+        />
+
+    <TextView
+        android:id="@+id/icon_language"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@color/teal_200"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/text_language"
+        app:layout_constraintTop_toBottomOf="@+id/icon_backup"
+        />
+
+    <TextView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_close" />
+
+    <TextView
+        android:id="@+id/text_xiaomi_count_help_center"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="小米账号帮助中心"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_language"
+        />
+
+    <include
+        layout="@layout/child_search"
+        />
+
+    <include
+        layout="@layout/child_help_service"
+        />
+
+    <include
+        layout="@layout/child_help_center"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

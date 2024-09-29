@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toggle_switch_title" />
+
+    <ToggleButton
+        android:id="@+id/toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="off status"
+        android:textOn="on status"
+        />
+
+    <Switch
+        android:id="@+id/switch_slider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="off status"
+        android:textOn="on status"
+        android:showText="true"
+        />
+
+</LinearLayout>

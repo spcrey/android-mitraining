@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HomeworkDay06</string>
+    <string name="main_activity_title">main activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_fragment_title">main fragment</string>
+    <string name="todo">TODO</string>
+    <string name="change_main_activity_text">change main activity text</string>
+    <string name="reset_main_activity_text">reset main activity text</string>
+    <string name="event_bus_title">event bus</string>
+    <string name="action_add_event_bus_index">add event bus index</string>
+    <string name="waterfall_flow_activity_title">waterfall flow activity</string>
+    <string name="main_activity_info_text">no text</string>
+</resources>

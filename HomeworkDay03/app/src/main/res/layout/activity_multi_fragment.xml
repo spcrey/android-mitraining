@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+        android:text="@string/multi_fragment_activity"
+        />
+
+    <Button
+        android:id="@+id/btn_add_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_fragment"
+        android:onClick="addFragment" />
+
+    <Button
+        android:id="@+id/btn_remove_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_fragment"
+        android:onClick="removeFragment" />
+
+    <Button
+        android:id="@+id/btn_replace_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/replace_fragment"
+        android:onClick="replaceFragment" />
+
+    <Button
+        android:id="@+id/btn_hide_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hide_fragment"
+        android:onClick="hideFragment" />
+
+    <Button
+        android:id="@+id/btn_show_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_fragment"
+        android:onClick="showFragment" />
+
+    <Button
+        android:id="@+id/btn_last_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_last_step"
+        android:onClick="backLastStep" />
+
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:id="@+id/static_fragment_container_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:name="com.example.homework_day_03.fragment.StaticFragment"-->
+<!--        />-->
+
+    <FrameLayout
+        android:id="@+id/dynamic_fragment_container_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <ImageView
+        android:id="@+id/ic_logo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/ic_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/text_logo"
+        android:layout_width="58dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="8dp"
+        android:text="iH 微博"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_logo"
+        />
+
+    <View
+        android:id="@+id/bg_shadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        android:alpha="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <View
+        android:id="@+id/bg_term_condition"
+        android:layout_width="268dp"
+        android:layout_height="252dp"
+        android:background="@drawable/bg_white_r26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/title_term_condition"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:textSize="18sp"
+        android:text="声明与条款"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/bg_term_condition"
+        app:layout_constraintEnd_toEndOf="@+id/bg_term_condition"
+        app:layout_constraintTop_toTopOf="@+id/bg_term_condition"
+        />
+
+    <Button
+        android:id="@+id/btn_agree"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:background="@drawable/bg_blue_r26dp_half"
+        android:text="同意并使用"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/bg_term_condition"
+        app:layout_constraintEnd_toEndOf="@+id/bg_term_condition"
+        app:layout_constraintBottom_toBottomOf="@+id/bg_term_condition"
+        />
+
+    <TextView
+        android:id="@+id/bg_disagree"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/bg_term_condition"
+        app:layout_constraintEnd_toEndOf="@+id/bg_term_condition"
+        app:layout_constraintBottom_toTopOf="@+id/btn_agree"
+        />
+
+    <TextView
+        android:id="@+id/btn_disagree"
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:text="不同意"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/bg_disagree"
+        app:layout_constraintEnd_toEndOf="@+id/bg_disagree"
+        app:layout_constraintTop_toTopOf="@+id/bg_disagree"
+        app:layout_constraintBottom_toBottomOf="@+id/bg_disagree"
+        />
+
+    <TextView
+        android:id="@+id/text_term_condition"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="14sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/bg_term_condition"
+        app:layout_constraintEnd_toEndOf="@+id/bg_term_condition"
+        app:layout_constraintTop_toBottomOf="@+id/title_term_condition"
+        app:layout_constraintBottom_toTopOf="@+id/bg_disagree"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

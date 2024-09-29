@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HomeworkDay03</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="multi_fragment_activity">multi fragment activity</string>
+    <string name="add_fragment">add fragment</string>
+    <string name="remove_fragment">remove fragment</string>
+    <string name="replace_fragment">replace fragment</string>
+    <string name="hide_fragment">hide fragment</string>
+    <string name="show_fragment">show fragment</string>
+    <string name="back_last_step">back last step(not implemented)</string>
+    <string name="dynamic_fragment">dynamic fragment</string>
+    <string name="object_fragment">object_fragment</string>
+    <string name="collection_pager">collection pager</string>
+    <string name="add_viewpager">add viewpager</string>
+    <string name="main_activity">main activity</string>
+    <string name="collection_pager_activity">collection pager activity</string>
+    <string name="interface_top_bottom_activity">interface top bottom activity</string>
+    <string name="public_top_bottom_activity">public top bottom activity</string>
+    <string name="top_fragment">top fragment</string>
+    <string name="bottom_fragment">bottom fragment</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="480dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/frame_layout_left_text"
+        android:textSize="24sp"
+        android:background="@color/teal_200"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="@string/frame_layout_right_text"
+        android:textSize="24sp"
+        android:background="@color/teal_700"
+        android:layout_gravity="end|bottom"
+        android:gravity="end"
+        />
+
+</FrameLayout>

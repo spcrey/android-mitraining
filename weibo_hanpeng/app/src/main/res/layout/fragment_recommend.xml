@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    >
+
+    <TextView
+        android:id="@+id/text_no_network"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textColor="#FFFF5050"
+        android:background="#FFf7e6e7"
+        android:textSize="13sp"
+        android:text="暂无网络连接"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="6dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_no_network"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <View
+        android:id="@+id/bg_loading"
+        android:layout_width="48dp"
+        android:layout_height="56dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/ic_loading"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:src="@drawable/ic_loading"
+        app:layout_constraintLeft_toLeftOf="@+id/bg_loading"
+        app:layout_constraintTop_toTopOf="@+id/bg_loading"
+        app:layout_constraintRight_toRightOf="@+id/bg_loading"
+        />
+
+    <TextView
+        android:id="@+id/text_loading"
+        android:text="加载中"
+        android:layout_width="0dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:alpha="0.8"
+        android:layout_height="21dp"
+        app:layout_constraintLeft_toLeftOf="@+id/bg_loading"
+        app:layout_constraintBottom_toBottomOf="@+id/bg_loading"
+        app:layout_constraintRight_toRightOf="@+id/bg_loading"
+        />
+
+    <View
+        android:id="@+id/bg_loading_failed"
+        android:layout_width="100dp"
+        android:layout_height="154dp"
+        android:background="@color/white"
+        android:alpha="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/ic_load_failed"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:alpha="0.0"
+        android:src="@drawable/ic_load_failed"
+        app:layout_constraintLeft_toLeftOf="@+id/bg_loading_failed"
+        app:layout_constraintTop_toTopOf="@+id/bg_loading_failed"
+        app:layout_constraintRight_toRightOf="@+id/bg_loading_failed"
+        />
+
+    <TextView
+        android:id="@+id/text_load_failed"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="网络请求失败"
+        android:textColor="@color/black"
+        android:layout_marginTop = "18dp"
+        android:alpha="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/bg_loading_failed"
+        app:layout_constraintTop_toBottomOf="@+id/ic_load_failed"
+        app:layout_constraintRight_toRightOf="@+id/bg_loading_failed"
+        />
+
+    <Button
+        android:id="@+id/btn_reload"
+        android:layout_width="68dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="重试"
+        android:background="@drawable/bg_ligh_r200dp"
+        android:textColor="@color/blue"
+        android:alpha="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/bg_loading_failed"
+        app:layout_constraintBottom_toBottomOf="@+id/bg_loading_failed"
+        app:layout_constraintRight_toRightOf="@+id/bg_loading_failed"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout >

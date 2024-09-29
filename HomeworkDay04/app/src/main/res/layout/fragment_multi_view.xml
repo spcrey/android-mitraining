@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/multi_view_fragment_title" />
+
+    <RadioGroup
+        android:id="@+id/btn_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/btn_select_man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/man"
+            />
+
+        <RadioButton
+            android:id="@+id/btn_select_woman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/woman"
+            />
+    </RadioGroup>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/select_apple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apple" />
+
+        <CheckBox
+            android:id="@+id/select_banana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/banana" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_action" />
+
+    <Button
+        android:id="@+id/btn_long_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/long_click_action" />
+
+    <Button
+        android:id="@+id/btn_touch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/touch_action" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/orange"
+        />
+
+    <TextView
+        android:id="@+id/image_seekbar_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rotate=0.0, alpha=0.0" />
+
+    <SeekBar
+        android:id="@+id/image_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:secondaryProgress="0"
+        />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/tel_mail"/>
+
+    <Button
+        android:id="@+id/btn_summit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/summit" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        style="@style/style_title"
+        android:background="@color/coral"
+        android:text="event bus"
+        android:layout_margin="6dp"
+        />
+
+    <Button
+        style="@style/style_button"
+        android:id="@+id/to_change_main_activity_text"
+        android:text="@string/change_main_activity_text"
+        android:layout_margin="6dp"
+        />
+
+    <Button
+        android:id="@+id/to_reset_main_activity_text"
+        style="@style/style_button"
+        android:text="@string/reset_main_activity_text"
+        android:layout_margin="6dp"
+        />
+
+    <TextView
+        android:id="@+id/index_num"
+        style="@style/style_title"
+        android:background="@drawable/rounded_rectangle_blue"
+        android:text="event bus: 0"
+        android:layout_margin="6dp"
+        />
+
+</LinearLayout>

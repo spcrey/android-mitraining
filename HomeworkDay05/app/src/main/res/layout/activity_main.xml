@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="@color/orange"
+        android:text="@string/main_activity_title"
+        android:layout_margin="6dp"
+        android:padding="6dp"
+        />
+
+    <Button
+        android:id="@+id/btn_to_homework"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/homework_title"
+        android:layout_margin="3dp"
+        />
+
+</LinearLayout>

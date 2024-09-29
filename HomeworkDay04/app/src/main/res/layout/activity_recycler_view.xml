@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/item_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="item index" />
+
+    <Button
+        android:id="@+id/to_add_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add item" />
+
+    <Button
+        android:id="@+id/to_delete_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete item" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

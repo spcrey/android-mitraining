@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:textSize="24sp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_green_r6dp"
+        android:text="Main Activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btn_to_test_activity"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="To Test Activity"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/btn_bg_blue_r6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_title"
+        />
+
+    <FrameLayout
+        android:id="@+id/fragment_container_view"
+        android:background="@drawable/bg_white_r6dp"
+        android:layout_width="0dp"
+        android:layout_height="540dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to_test_activity"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

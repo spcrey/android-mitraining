@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        style="@style/style_title"
+        android:layout_margin="6dp"
+        android:background="@drawable/rounded_rectangle_coral"
+        android:text="@string/main_activity_title"
+        />
+
+    <Button
+        style="@style/style_button"
+        android:layout_margin="6dp"
+        android:id="@+id/to_homework"
+        android:text="homework"
+        />
+
+    <Button
+        style="@style/style_button"
+        android:layout_margin="6dp"
+        android:id="@+id/to_event_bus"
+        android:text="@string/event_bus_title"
+        />
+
+    <Button
+        style="@style/style_button"
+        android:layout_margin="6dp"
+        android:id="@+id/to_add_event_bus_index"
+        android:text="@string/action_add_event_bus_index"
+        />
+
+    <TextView
+        style="@style/style_title"
+        android:layout_margin="6dp"
+        android:id="@+id/tem_text"
+        android:background="@drawable/rounded_rectangle_blue"
+        android:text="@string/main_activity_info_text"
+        />
+    
+    <LinearLayout
+        android:id="@+id/main_fragment_container_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>

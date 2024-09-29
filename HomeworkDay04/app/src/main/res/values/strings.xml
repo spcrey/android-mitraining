@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HomeworkDay04</string>
+    <string name="main_activity_title">main activity</string>
+    <string name="hello_world">hello world</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="marquee_title">marquee</string>
+    <string name="marquee_text">This is a marquee text, and this is a marquee text.</string>
+    <string name="multi_button_title">multi button</string>
+    <string name="click_action">need to click</string>
+    <string name="long_click_action">need to long click</string>
+    <string name="touch_action">need to touch</string>
+    <string name="radio_group_title">radio group</string>
+    <string name="man">man</string>
+    <string name="woman">woman</string>
+    <string name="apple">apple</string>
+    <string name="banana">banana</string>
+    <string name="watermelon">watermelon</string>
+    <string name="check_box_title">check box</string>
+    <string name="seekbar_image_title">seekbar image</string>
+    <string name="toggle_switch_title">toggle switch</string>
+    <string name="recycler_view_title">recycler view(question 2)</string>
+    <string name="tel_mail">tel/mail</string>
+    <string name="summit">summit</string>
+    <string name="text_check_title">text check</string>
+    <string name="span_text_title">span text</string>
+    <string name="todo">TODO</string>
+    <string name="multi_view_activity_title">multi view activity(question 1)</string>
+    <string name="multi_view_title">multi view</string>
+    <string name="multi_view_fragment_title">multi view fragment</string>
+</resources>
